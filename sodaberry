@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SodaBerry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gelato+Script&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fff4f7;
+      color: #5c2a3d;
+    }
+    header {
+      background-color: #ffcedd;
+      padding: 2rem;
+      text-align: center;
+      font-family: 'Gelato Script', cursive;
+      font-size: 3rem;
+      color: #a42053;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #a42053;
+      background: #ffe8ef;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      margin: 0 0.5rem;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: #f3cdd7;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: #ffe8ef;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #a42053;
+      margin-bottom: 1rem;
+    }
+    .menu-item {
+      padding: 1rem 0;
+      border-bottom: 1px solid #f3cdd7;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .menu-item h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #a42053;
+    }
+    .menu-item p {
+      margin: 0.3rem 0 0;
+      font-size: 0.95rem;
+    }
+    .contact-info, .about-text {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #a42053;
+    }
+  </style>
+</head>
+<body>
+  <header>SodaBerry</header>
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="menu">
+    <h2>Today's Menu</h2>
+    <div class="menu-item">
+      <h3>Pasta</h3>
+      <p>Arabiata, Alfredo, or Indian-style Macaroni</p>
+      <p>Shapes: Penne, Spiral, Spaghetti, Elbow</p>
+    </div>
+    <div class="menu-item">
+      <h3>Cold Coffee</h3>
+      <p>Classic chilled cold coffee</p>
+    </div>
+    <div class="menu-item">
+      <h3>Vietnamese Cold Coffee</h3>
+      <p>Strong, sweet, and smooth with condensed milk</p>
+    </div>
+    <div class="menu-item">
+      <h3>Sandwich</h3>
+      <p>Coleslaw or Egg Sandwich</p>
+    </div>
+    <div class="menu-item">
+      <h3>Halwa</h3>
+      <p>Traditional warm and rich Indian dessert</p>
+    </div>
+    <div class="menu-item">
+      <h3>Brownie</h3>
+      <p>Fudgy, chocolaty treat</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about-text">
+      <p>Hey, I’m Swati! You can order anything from here totally for free — you only have to buy me the ingredients! 🥹🍝💕</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p>If you want to talk to me, place an order, or just say hi — send me a message on Instagram or drop a cute email! 💖</p>
+      <p><strong>📧 Email:</strong> sodaberry@cutefoodmail.com<br>
+         <strong>📸 Instagram:</strong> @sodaberry_cafe</p>
+    </div>
+  </section>
+
+  <div class="footer">
+    Made with love by Swati 🍓
+  </div>
+</body>
+</html>
